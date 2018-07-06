@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+ <html>  
+      <head>  
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"> </script>
+      <script type="text/javascript" src="script.js"></script>
+      </head> 
+      
+       
+      <body onload="UITest1()"> 
+       
+           <div id="wrapper">
+                  <div id="question">  
+                  </div>  
+				<br />  
+                  <ul id="options">
+                  <!--Load XLM Data-->                 
+                  </ul>  
+                  <button id="nextButton" onclick="FunNextNode()">Next</button>
+           </div>  
+     <br />  
+     
+    <center>  
+        <div id="result" style="display:none;height:200px;width:500px;background-color:lime; border:1px solid #dfdfdf;">  
+        &nbsp;&nbsp;&nbsp; No of Questions : <div id="noofques"></div><br />  
+        &nbsp;&nbsp;&nbsp; No of Correct Answers : <div id="noofcorans"></div>  
+        </div>
+    </center>  
+    
+      </body>  
+ </html>
